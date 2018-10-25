@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.Controller">
+   <center>
+      <AnchorPane prefHeight="278.0" prefWidth="374.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="84.0" layoutY="63.0" text="futi" />
+            <TextField layoutX="113.0" layoutY="59.0" />
+            <Button layoutX="161.0" layoutY="101.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="73.0" text="gadayvana" />
+            <Label layoutX="113.0" layoutY="178.0" text="santimetri" />
+            <TextField layoutX="178.0" layoutY="172.0" prefHeight="29.0" prefWidth="56.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
